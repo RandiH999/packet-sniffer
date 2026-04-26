@@ -22,6 +22,23 @@ The tool is designed with **ethical safeguards**, including IP redaction and res
 - Kali Linux (VirtualBox VM)
 - GitHub Copilot (for code assistance)
 
----
 
-## Project Structure
+
+## AI Use Policy
+
+This project used GitHub Copilot with the following guidelines:
+
+### Allowed Uses:
+- Boilerplate code
+- Logging and JSON formatting
+- Function scaffolding
+
+### Prohibited Uses:
+- Capturing other people’s network traffic
+- Bypassing OS or network permissions
+- Creating stealth, hidden, or persistent monitoring tools
+
+### Ethical Safeguards:
+- Capture restricted to lab interface (eth1)
+- Data redaction implemented
+- No unauthorized traffic collection
